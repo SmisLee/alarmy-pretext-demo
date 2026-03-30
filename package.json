@@ -1,0 +1,14 @@
+{
+  "name": "alarmy-pretext-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun build main.ts --outdir=dist --watch",
+    "build": "bun build main.ts --outdir=dist",
+    "start": "bun --hot main.ts"
+  },
+  "dependencies": {
+    "@chenglou/pretext": "^0.0.3"
+  }
+}
